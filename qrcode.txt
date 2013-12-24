@@ -1,0 +1,7 @@
+qr code test software,  can now scan a qr code without human interaction
+uses zbar rather than qrcode()
+
+bugs
+
+cannot pass the data from the qrcode to a vaiable so it can display output
+depending on what is stored in the data
