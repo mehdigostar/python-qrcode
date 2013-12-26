@@ -34,8 +34,8 @@ data = QRCode().get_data()
 if (data == "test"):
 	print "data is test"
 
-if(__name__ == "__main__"):
-   print QRCode().get_data() 
+#if(__name__ == "__main__"):
+ #  print QRCode().get_data() 
 
 
 
