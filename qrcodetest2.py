@@ -19,7 +19,7 @@ class QRCode():
 
         self.proc.init("/dev/video0")
         self.proc.set_data_handler(self.qr_handler)
-        self.proc.visible = True
+        self.proc.visible = False
 #display cam window if True,  hide if False
         self.proc.active = True
 
@@ -34,8 +34,8 @@ data = QRCode().get_data()
 if (data == "test"):
 	print "data is test"
 
-if(__name__ == "__main__"):
-   print QRCode().get_data() 
+#if(__name__ == "__main__"):
+ #  print QRCode().get_data() 
 
 
 
