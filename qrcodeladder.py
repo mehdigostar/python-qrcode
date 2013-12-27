@@ -16,6 +16,11 @@ GPIO.cleanup()
 GPIO.setup(11, GPIO.OUT)
 GPIO.setup(12, GPIO.OUT)
 
+#turn off leds
+
+GPIO.output(11, False)
+GPIO.output(12, False)
+
 class QRCode():
 
     data = None
