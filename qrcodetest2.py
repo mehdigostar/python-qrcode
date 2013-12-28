@@ -1,4 +1,5 @@
 import zbar
+import sys
 
 class QRCode():
 
@@ -33,6 +34,14 @@ class QRCode():
 data = QRCode().get_data()
 if (data == "test"):
 	print "data is test"
+
+elif (data == "EXIT"):
+	print "data is EXIT"
+	sys.exit()
+
+elif (data == "LEDBlueON"):
+	print ("Data is LEDBlueON")
+
 
 #if(__name__ == "__main__"):
  #  print QRCode().get_data() 
