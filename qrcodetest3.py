@@ -1,4 +1,4 @@
-#version 2.0
+#version 3.0
 
 import zbar
 import sys
@@ -40,6 +40,7 @@ if (data == "test"):
 elif (data == "EXIT"):
 	print "data is EXIT"
 	sys.exit()
+
 # blue LEDS
 
 elif (data == "LEDBlueON"):
